@@ -1,0 +1,21 @@
+- name: "Communication"
+  description: "Communication software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - arcolinux-teamviewer
+    - discord
+    - krdc
+    - qtox
+    - remmina
+    - skypeforlinux-stable-bin
+    - slack-desktop
+    - teams
+    - telegram-desktop
+    - tigervnc
+    - viber
+    - whatsapp-nativefier    
+    - wire-desktop
+    - zoom
