@@ -46,6 +46,8 @@
   hidden: false
   selected: false
   packages:
+    - linux
+    - linux-headers
     - nvidia
     - nvidia-settings
     - nvidia-utils
@@ -55,10 +57,11 @@
   hidden: false
   selected: false
   packages:
+    - linux-lts
+    - linux-lts-headers
     - nvidia-lts
     - nvidia-settings
     - nvidia-utils
-    - nvidia-dkms
 - name: "Cuda toolkit"
   description: "Installs the Cuda Toolkit"
   critical: false
@@ -74,6 +77,7 @@
   packages:
     - bumblebee
     - disper
+    - nvidia-dkms
     - nvidia-xrun
     - optimus-manager
     - optimus-manager-qt
